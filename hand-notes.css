@@ -1,0 +1,23 @@
+/*
+বোডার বিহিন submit বাটন বানানোর কোড।
+<input type="submit" name="submit" value="Click here to submit" id="submit">
+*/
+
+input#submit{
+  background:none;
+  border:none;
+  font-size:1em;
+  color:blue;
+}
+/* আমি কাস্টমাইজ করার পর। */
+input#submit{
+  border:none;
+  background: yellowgreen;
+  font-size: 1.6rem;
+  color:#fff;
+  padding: 1rem 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 100%;
+}
